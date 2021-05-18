@@ -1,0 +1,80 @@
+:root {
+	--yellow-color: #f0ce5d;
+	--blue-color: #506693;
+}
+
+body {
+	background-color: #f4f4f2;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+.container-fluid {
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+}
+
+textarea {
+	width: 90%;
+	display: block;
+	padding: 0.5rem;
+	margin: auto;
+	height: 15vh;
+}
+
+#output {
+	border: 1px solid black;
+	height: 15vh;
+	width: 90%;
+	margin: auto;
+	margin-top: 20px;
+	padding: 0.5rem;
+}
+
+#header {
+	font-family: "BauhausC-Bold";
+	padding: 15px;
+	font-size: 50px;
+	color: var(--blue-color);
+}
+
+#btn-translate {
+	background-color: var(--yellow-color);
+	padding: 10px;
+	font-family: "AmaticSC-Bold";
+	font-size: 150%;
+}
+
+#btn-translate:hover {
+	background-color: var(--blue-color);
+	color: #f4f4f2;
+}
+
+.footer {
+	color: var(--blue-color);
+	font-family: "AmaticSC-Bold";
+	font-size: xx-large;
+}
+@font-face {
+	font-family: "BauhausC-Bold";
+	src: url("fonts/BauhausC-Bold.eot");
+	src: url("fonts/BauhausC-Bold.eot?#iefix") format("embedded-opentype"),
+		url("fonts/BauhausC-Bold.woff2") format("woff2"),
+		url("fonts/BauhausC-Bold.woff") format("woff"),
+		url("fonts/BauhausC-Bold.ttf") format("truetype"),
+		url("fonts/BauhausC-Bold.svg#svgFontName") format("svg");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "AmaticSC-Bold";
+	src: url("fonts/AmaticSC-Bold.eot");
+	src: url("fonts/AmaticSC-Bold.eot?#iefix") format("embedded-opentype"),
+		url("fonts/AmaticSC-Bold.woff2") format("woff2"),
+		url("fonts/AmaticSC-Bold.woff") format("woff"),
+		url("fonts/AmaticSC-Bold.ttf") format("truetype"),
+		url("fonts/AmaticSC-Bold.svg#svgFontName") format("svg");
+	font-weight: 400;
+	font-style: normal;
+}
